@@ -67,7 +67,7 @@ backport_build () {
 
 backport sway lunar jammy
 backport swayidle kinetic jammy
-backport swaylock kinetic jammy
+backport swaylock lunar jammy
 backport waybar kinetic jammy
 # backport_build neovim
 # backport_from_source waybar 0.9.13 0.9.13-2 1 jammy || bash

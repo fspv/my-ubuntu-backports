@@ -1,6 +1,6 @@
 DST_DIST=jammy
 
-sudo docker build \
+sudo docker build --no-cache \
         -t pv-safronov-backports:${DST_DIST} \
         --build-arg DIST=${DST_DIST} \
         .
